@@ -7,7 +7,7 @@
     $message = "";
 
 
-    if(filter_input($_POST['nom']) == "")
+    if(filter_input(INPUT_POST, $_POST['nom']) == "")
     {
         echo "test";
     }
