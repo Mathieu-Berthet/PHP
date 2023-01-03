@@ -70,9 +70,9 @@
 <div class="container">
     <header class="d-flex justify-content-center py-3">
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="MaPage.php" class="nav-link active" aria-current="page"">Première page</a></li>
-            <li class="nav-item"><a href="MaPage2.php" class="nav-link">Deuxième page</a></li>
-            <li class="nav-item"><a href="MaPage3.php" class="nav-link">Troisème page</a></li>
+            <li class="nav-item"><a href="Index.php?page=MaPage" class="nav-link active" aria-current="page"">Première page</a></li>
+            <li class="nav-item"><a href="Index.php?page=MaPage2" class="nav-link">Deuxième page</a></li>
+            <li class="nav-item"><a href="Index.php?page=MaPage3" class="nav-link">Troisème page</a></li>
         </ul>
     </header>
 </div>
