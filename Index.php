@@ -12,6 +12,10 @@ if(isset($_GET['page']))
     {
         include("MaPage3.php");
     }
+    else if ($_GET['page'] == "Contact")
+    {
+        include("Contact.php");
+    }
 }
 else
 {
