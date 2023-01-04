@@ -6,6 +6,6 @@
 
 <h3>Le petit titre 2 </h3>
 
-<p>Voici le premier paragraphe de cette page. Bon, il est court certes 2</p>
+<p class="texte">Voici le premier paragraphe de cette page. Bon, il est court certes 2</p>
 
 

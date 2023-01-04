@@ -14,6 +14,11 @@
   outline: 0;
 }
 
+p.texte
+{
+  display:block;
+}
+
 
 p
 {
