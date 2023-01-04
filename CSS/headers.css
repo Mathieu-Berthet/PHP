@@ -13,3 +13,15 @@
 .dropdown-toggle {
   outline: 0;
 }
+
+
+p
+{
+  display:none;
+}
+
+p.visible
+{
+  display:block;
+  color: red;
+}

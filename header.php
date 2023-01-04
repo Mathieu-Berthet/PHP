@@ -64,7 +64,7 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="headers.css" rel="stylesheet">
+    <link href="CSS/headers.css" rel="stylesheet">
 
 </head>
 <div class="container">
