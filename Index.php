@@ -16,6 +16,10 @@ if(isset($_GET['page']))
     {
         include("Contact.php");
     }
+    else
+    {
+        include("notfound.php");
+    }
 }
 else
 {
