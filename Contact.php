@@ -48,6 +48,15 @@
 
     if(!empty($_POST))
     {
+        /*foreach($_POST as $key=>$value)
+        {
+            if(empty($value))
+            {
+                $isfill = false;
+            }
+        }*/
+
+
         for($i = 0; $i < count($arrayInfo); $i++)
         {
             if($arrayInfo[$i] == "")
@@ -62,7 +71,7 @@
 
         if($isfill)
         {
-            file_put_contents($fileName, $arrayInfo);
+            file_put_contents($fileName, $_POST);
         }
     }
 ?>
